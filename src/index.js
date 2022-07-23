@@ -6,7 +6,7 @@ const PORT = process.env.APP_PORT;
 app.use(express.json());
 
 app.get('/', (req, res) => {
-  res.send('Criando os baguio');
+  res.send('Criando os baguio!!');
 });
 
 app.listen(PORT, () => {
